@@ -1,0 +1,230 @@
+/*DISEÑO PARA CELULAR*/
+.texto{
+	color: rosybrown;
+	text-shadow: 0px 0px 20px mistyrose;
+}
+
+p{
+	color: #de7e5d;
+	text-shadow: 0px 0px 20px #801032;
+	text-align: justify;
+	text-size-adjust: 20px;
+}
+
+footer{
+	color: #de7e5d;
+	text-shadow: 0px 0px 20px #801032;
+	text-align: justify;
+	text-size-adjust: 20px;
+}
+
+h1{
+	color: indianred;
+	text-shadow: 0px 0px 20px crimson;
+	text-align: center;
+}
+
+h2{
+	color: coral;
+	text-shadow: 0px 0px 20px orangered;
+	text-align: center;
+}
+
+h3{
+	color: goldenrod;
+	text-shadow: 0px 0px 20px goldenrod;
+	text-align: center;
+}
+
+h4{
+	color: mediumspringgreen;
+	text-shadow: 0px 0px 20px seagreen;
+	text-align: center;
+}
+
+h5{
+	color: skyblue;
+	text-shadow: 0px 0px 20px midnightblue;
+	text-align: center;
+}
+
+h6{
+	color: #49385A;
+	text-shadow: 0px 0px 20px darkviolet;
+	text-align: center;
+}
+
+
+body{
+	background-color: mintcream;
+}
+
+button{
+	border:20px round;
+    width:120px;
+    height:45px;
+	color: #de7e5d;
+	text-shadow: 0px 0px 20px #801032;
+	background-color: #7BC6F7;
+	border-color: #7BC6F7;
+}
+
+input{
+	color: indianred;
+	text-shadow: 0px 0px 20px #C8A2C8;
+	background-color: #7BC6F7;
+	border-color: #7BC6F7;
+}
+
+legend{
+	color: indianred;
+	text-shadow: 0px 0px 20px #C8A2C8;
+}
+
+fieldset{
+	background-color: mintcream;
+	border-color: #7BC6F7;
+}
+
+/*DISEÑO PARA ESCRITORIO*/
+@media screen and (min-width:800px){
+.texto{
+	color: mintcream;
+	text-shadow: 0px 0px 20px mediumaquamarine;
+}
+
+p{
+	color: #93061D;
+	font-family: cursive;
+	text-shadow: 0px 0px 20px #EC1236;
+	text-align: justify;
+	text-size-adjust: 20px;
+}
+
+footer{
+	color: #93061D;
+	font-family: cursive;
+	text-shadow: 0px 0px 20px #EC1236;
+	text-align: justify;
+	text-size-adjust: 20px;
+	}
+
+h1{
+	color: #49385A;
+	text-shadow: 0px 0px 20px darkviolet;
+	text-align: center;
+}
+
+h2{
+	color: skyblue;
+	text-shadow: 0px 0px 20px midnightblue;
+	text-align: center;
+}
+
+h3{
+	color: #74E39B;
+	text-shadow: 0px 0px 20px seagreen;
+	text-align: center;
+}
+
+h4{
+	color: lightgoldenrodyellow;
+	text-shadow: 0px 0px 20px goldenrod;
+	text-align: center;
+}
+
+h5{
+	color: coral;
+	text-shadow: 0px 0px 20px orangered;
+	text-align: center;
+}
+
+h6{
+	color: indianred;
+	text-shadow: 0px 0px 20px crimson;
+	text-align: center;
+}
+
+body{
+	background-color: #7B9955;
+}
+
+button{
+	border-radius: 8px ;
+	border:20px;
+    width:120px;
+    height:45px;
+	color: #DCB5B9;
+	text-shadow: 0px 0px 20px #DCB5B98;
+	background-color: indianred;
+	border-color: indianred;
+}
+
+input{
+	color: #CCCCFF;
+	text-shadow: 0px 0px 20px #C8A2C8;
+	background-color: indianred;
+	border-color: indianred;
+}
+
+legend{
+	color: #7E1E27;
+	text-shadow: 0px 0px 20px #C8A2C8;
+}
+
+fieldset{
+	background-color: #DCB5B9;
+	border-color: indianred;
+}
+label{
+	color: #7E1E27;
+	text-shadow: 0px 0px 20px #C8A2C8;
+}
+select{
+	background-color: indianred;
+	border-color: indianred;
+	color: #DCB5B9;
+	text-shadow: 0px 0px 20px #DCB5B98;
+}
+
+.border{
+	border-image-repeat: round;
+    border-image-slice: 10;
+	border-image-source: url("border.png");
+}
+
+table{
+	border-color: indianred;
+	background-color: #DCB5B9;
+	color: #7B9955;
+}
+
+tr{
+	border-color: indianred;
+	background-color: #DCB5B9;
+	color: #7B9955;
+}
+
+th{
+	border-color: indianred;
+	background-color: #DCB5B9;
+	color: #7B9955;
+}
+
+td{
+	border-color: indianred;
+	background-color: #DCB5B9;
+	color: #7B9955;
+}
+
+.pequeño{
+	width: 30px;
+	height: 30px;
+	
+}
+
+caption{
+	color: indianred;
+	text-shadow: 0px 0px 20px indianred;
+}
+}
